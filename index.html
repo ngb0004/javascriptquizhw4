@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="style.css" rel = "stylesheet">
+    <script defer src="script.js"></script>
+    <title>Code Quiz!</title>
+  
+</head>
+  <body>
+    <nav class="navbar navbar-dark bg-light">
+        <a class="navbar-brand" id="high-scores-btn">High Scores</a>
+        <span id= "timer" class="navbar-brand mb-0 h1"></span>
+      </nav>  
+    <div class = "container">
+        
+        <div id = "question-container">
+            <div id="question">Simple Javascript quiz</div>
+            <div id="answer-buttons" class = "btn-grid hide">
+                <button class ="btn">Answer 1</button>
+                
+                <button class ="btn">Answer 2</button>
+                
+                <button class ="btn">Answer 3</button>
+                
+                <button class ="btn">Answer 4</button>
+            </div>
+
+        </div>
+        <div class = "controls">
+            <button id = "start-btn" class = "start-btn btn">Start</button>
+            <button id = "next-btn" class = "hide next-btn btn">Next</button>
+            
+        </div>
+        <div class ="highscores hide" id = "highScores">
+            <h1>High Scores</h1>
+            <div id= "scoresList"></div>
+            <button id = "restartBtn" class = "start-btn btn">Restart</button>
+        </div>
+        <div class ="enterName hide" id = "enterName">
+           
+            <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Enter Name</span>
+                </div>
+                <input type="text" aria-label="Name" id = "inputName" class="form-control">
+                
+            </div>
+            <input type="submit" aria-label="Name" id = "submitName" class="form-control">
+
+        </div>
+    </div>
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
